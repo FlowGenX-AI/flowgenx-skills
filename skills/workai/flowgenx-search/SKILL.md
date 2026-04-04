@@ -13,7 +13,7 @@ Find API endpoints across your connected apps using natural language queries.
 
 ## Prerequisites
 
-FlowGenX Productivity MCP must be configured. Run: `bunx @flowgenx/mcp-setup`
+FlowGenX Productivity MCP must be configured. Run: `npx flowgenx`
 
 ## Tools Available
 

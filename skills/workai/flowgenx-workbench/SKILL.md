@@ -12,7 +12,7 @@ Execute Python code in a sandboxed environment with built-in helpers for calling
 
 ## Prerequisites
 
-FlowGenX Productivity MCP must be configured. Run: `bunx @flowgenx/mcp-setup`
+FlowGenX Productivity MCP must be configured. Run: `npx flowgenx`
 
 ## Tools Available
 

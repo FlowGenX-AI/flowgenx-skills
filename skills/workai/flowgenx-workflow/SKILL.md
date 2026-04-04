@@ -20,7 +20,7 @@ The complete guide to discovering, searching, inspecting, and executing API endp
 
 ## Prerequisites
 
-FlowGenX Productivity MCP must be configured. Run: `bunx @flowgenx/mcp-setup`
+FlowGenX Productivity MCP must be configured. Run: `npx flowgenx`
 
 ## The Workflow Pattern
 

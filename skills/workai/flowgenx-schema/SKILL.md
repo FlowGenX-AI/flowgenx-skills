@@ -12,7 +12,7 @@ Inspect endpoint schemas to understand required parameters before execution.
 
 ## Prerequisites
 
-FlowGenX Productivity MCP must be configured. Run: `bunx @flowgenx/mcp-setup`
+FlowGenX Productivity MCP must be configured. Run: `npx flowgenx`
 
 ## Tools Available
 

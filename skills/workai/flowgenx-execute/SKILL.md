@@ -13,7 +13,7 @@ Execute API endpoints with automatic authentication — single calls or parallel
 
 ## Prerequisites
 
-FlowGenX Productivity MCP must be configured. Run: `bunx @flowgenx/mcp-setup`
+FlowGenX Productivity MCP must be configured. Run: `npx flowgenx`
 
 **Important:** Always use `get_schema` to inspect an endpoint before executing it.
 

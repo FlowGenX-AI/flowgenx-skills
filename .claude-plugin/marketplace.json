@@ -1,29 +1,29 @@
 {
-  "name": "flowgenx-productivity",
+  "name": "flowgenx-skills",
   "owner": {
-    "name": "FlowGenX",
-    "email": "support@flowgenx.ai"
+    "name": "Mohammad Ismail",
+    "email": "ismail@flowgenx.ai"
   },
   "metadata": {
-    "description": "Official FlowGenX plugin — search, execute, and orchestrate API endpoints across 100+ connected apps using Productivity MCP.",
+    "description": "Official FlowGenX agent skills — Worker AI productivity tools, and more coming soon.",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "flowgenx-productivity",
+      "name": "flowgenx-workai",
       "source": "./",
-      "description": "AI-powered productivity tools for connected apps — search, execute, and orchestrate API endpoints across 100+ integrations.",
+      "description": "Worker AI productivity skills — search, execute, and orchestrate API endpoints across 100+ connected apps.",
       "version": "1.0.0",
       "author": {
-        "name": "FlowGenX",
-        "email": "support@flowgenx.ai"
+        "name": "Mohammad Ismail",
+        "email": "ismail@flowgenx.ai"
       },
-      "homepage": "https://github.com/flowgenx-ai/flowgenx-skills",
-      "repository": "https://github.com/flowgenx-ai/flowgenx-skills",
+      "homepage": "https://github.com/FlowGenX-AI/flowgenx-skills",
+      "repository": "https://github.com/FlowGenX-AI/flowgenx-skills",
       "license": "MIT",
-      "keywords": ["mcp", "integration", "api", "productivity", "workflow", "automation"],
+      "keywords": ["mcp", "workai", "integration", "api", "productivity", "workflow", "automation"],
       "category": "external-integrations",
-      "tags": ["api-integration", "workflow-automation", "connected-apps", "productivity"]
+      "tags": ["workai", "api-integration", "workflow-automation", "connected-apps"]
     }
   ]
 }

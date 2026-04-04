@@ -12,7 +12,7 @@ Get started with FlowGenX Productivity MCP — your gateway to 100+ connected ap
 
 ## Prerequisites
 
-FlowGenX Productivity MCP must be configured. Run: `bunx @flowgenx/mcp-setup`
+FlowGenX Productivity MCP must be configured. Run: `npx flowgenx`
 
 ## Tools Available
 
