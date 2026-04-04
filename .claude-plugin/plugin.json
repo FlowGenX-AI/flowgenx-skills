@@ -1,0 +1,15 @@
+{
+  "name": "flowgenx-productivity",
+  "version": "1.0.0",
+  "description": "AI-powered productivity tools for connected apps — search, execute, and orchestrate API endpoints across 100+ integrations via FlowGenX Productivity MCP.",
+  "author": {
+    "name": "FlowGenX",
+    "email": "support@flowgenx.ai",
+    "url": "https://flowgenx.ai"
+  },
+  "homepage": "https://flowgenx.ai",
+  "repository": "https://github.com/flowgenx-ai/flowgenx-skills",
+  "license": "MIT",
+  "keywords": ["mcp", "integration", "api", "productivity", "workflow", "automation", "connectors"],
+  "skills": "./skills/"
+}

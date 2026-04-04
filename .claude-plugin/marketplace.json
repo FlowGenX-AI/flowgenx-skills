@@ -1,0 +1,29 @@
+{
+  "name": "flowgenx-productivity",
+  "owner": {
+    "name": "FlowGenX",
+    "email": "support@flowgenx.ai"
+  },
+  "metadata": {
+    "description": "Official FlowGenX plugin — search, execute, and orchestrate API endpoints across 100+ connected apps using Productivity MCP.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "flowgenx-productivity",
+      "source": "./",
+      "description": "AI-powered productivity tools for connected apps — search, execute, and orchestrate API endpoints across 100+ integrations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "FlowGenX",
+        "email": "support@flowgenx.ai"
+      },
+      "homepage": "https://github.com/flowgenx-ai/flowgenx-skills",
+      "repository": "https://github.com/flowgenx-ai/flowgenx-skills",
+      "license": "MIT",
+      "keywords": ["mcp", "integration", "api", "productivity", "workflow", "automation"],
+      "category": "external-integrations",
+      "tags": ["api-integration", "workflow-automation", "connected-apps", "productivity"]
+    }
+  ]
+}
