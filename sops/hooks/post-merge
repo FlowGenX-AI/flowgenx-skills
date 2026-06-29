@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# git post-merge — auto-decrypt *.sops after `git pull`/`merge`.
+ROOT="$(git rev-parse --show-toplevel)"; S="$ROOT/sops/decrypt.sh"
+[ -x "$S" ] && "$S" || true
