@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# git post-rewrite — auto-decrypt *.sops after rebase / git pull --rebase
+# (post-merge does NOT fire on rebase).
+ROOT="$(git rev-parse --show-toplevel)"; S="$ROOT/sops/decrypt.sh"
+[ -x "$S" ] && "$S" || true

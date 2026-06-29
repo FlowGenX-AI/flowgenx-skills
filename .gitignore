@@ -1,0 +1,8 @@
+
+# ── SOPS: ignore plaintext env, track encrypted *.sops ──────────────────────
+.env
+.env.*
+!*.sops
+!.env.example
+!.env.sample
+!.env.template

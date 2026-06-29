@@ -1,0 +1,7 @@
+# SOPS config — encrypts local-dev env files via GCP KMS.
+# path_regex matches the PLAINTEXT INPUT filename you run `sops -e` on (e.g. .env, .env.local).
+# Decryption reads the key from the file's own metadata and ignores these rules.
+# KMS key access: any @flowgenx.ai account (run `gcloud auth application-default login`).
+creation_rules:
+  - path_regex: \.env(\..*)?$
+    gcp_kms: projects/startupproject-414500/locations/global/keyRings/sops/cryptoKeys/env
