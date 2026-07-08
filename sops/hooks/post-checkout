@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# git post-checkout — auto-decrypt *.sops after checkout/switch/clone.
-# $3=1 => branch checkout (skip file checkouts).
-[ "${3:-1}" = "1" ] || exit 0
-ROOT="$(git rev-parse --show-toplevel)"; S="$ROOT/sops/decrypt.sh"
-[ -x "$S" ] && "$S" || true
