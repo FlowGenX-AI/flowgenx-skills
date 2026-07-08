@@ -1,0 +1,16 @@
+# Cross-platform hygiene for the SOPS workflow (linux / macOS / Windows).
+#
+# SOPS ciphertext MUST be byte-identical on every OS — any CRLF conversion
+# corrupts the MAC / dotenv payload and makes `make decrypt` fail on Windows.
+*.sops          -text
+*.sops.*        -text
+
+# Shell scripts must stay LF even on Windows checkouts — CRLF breaks the
+# `#!/usr/bin/env bash` shebang and Git-Bash execution.
+*.sh            text eol=lf
+
+# Normalize common text files to LF.
+Makefile        text eol=lf
+*.yaml          text eol=lf
+*.yml           text eol=lf
+*.md            text eol=lf
